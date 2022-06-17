@@ -1,0 +1,37 @@
+*Lembrando que "Silence on sucess".
+
+- cd+ nome do repositório ou pasta --> entra na base da pasta citada;
+- cd .. --> retroceder um comando;
+- dir --> abre a lista de pastas;
+- ctrl+L --> limpa a tela;
+- mkdir + nome do repositório/pasta --> cria um repositório/pasta;
+- rmdir + nome do repositório/pasta +/S/Q --> remover o repositório/pasta em questão;
+- echo --> (dentro do repositório) retorna o que você digitar;
+- del --> deleta arquivos;
+- git init --> iniciar repositório;
+- git add --> adiciona o arquivo, o transformando em stage;
+- git commit --> faz com que se crie um commit desse arquivo;
+- git status --> mostra o status do arquivo;
+- mv + nome do arquivo + onde o mover --> move o arquivo para o lugar desejado;
+- ls --> mostra todo o conteúdo da pasta ou arquivo em questão.
+
+*Configurar o git:
+	- git config--list --> abre uma lista, mostrando as configurações, usuário, email, vinculados ao git.
+	- git config--global--unset user.email --> tirar a setagem do email atribuido ao Git;
+	- gir config--global--unset user.name --> tira o set do nome do usuário vinculado ao Git.
+
+* SHA1 (Secure Hash Algorithm) --> Tem um conjunto de funções hash criptográficas projetadas pela NSA.
+	-gera um conjunto de caracteres de 40 digitos 
+
+* Objetos internos do Git:
+	- blobs: cria blobs;
+	- tree: armazena e aponta os tipos de blobs diferentes;
+	- commit: -> É único para cada autor;
+		  -> aponta para uma tree, parente (último commit realizado antes dele), autor e mensagem;
+
+* Arquivos traked são os que conhecemos, temos ciência deles ali.
+- unmodified
+- modified
+- staged
+
+* Arquivos Intraked não conhecemos.
